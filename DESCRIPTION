@@ -1,0 +1,20 @@
+Package: upseRt
+Title: Upsertion Package for R
+Version: 0.0.0.9000
+Authors@R: c(person("Ganesh", "Krishnan", email = "ganesh.krishnan@instacart.com", role = c("aut", "cre")),
+     person("Eric", "Rynerson", email = "eric@instacart.com", role = c("aut")))
+Description: Upsertion library for R
+Depends:
+    R (>= 3.3.2)
+Imports:
+    assertthat,
+    DBI,
+    dplyr,
+    carrelt,
+    caroline,
+    magrittr,
+    purrr
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
